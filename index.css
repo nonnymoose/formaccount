@@ -1,0 +1,42 @@
+div.search {
+	margin-top: 35vh;
+	text-align: center;
+}
+
+div.search form input {
+	font-size: 1.5em;
+	height: 100%;
+	padding: 4vh;
+	border: none;
+	/*! margin: 5px; */
+}
+
+div.blurb, div.error {
+	text-align: center;
+	font-size: 3vh;
+	margin: 5vh;
+}
+
+div.error {
+	color: red;
+	font-size: 4vh;
+}
+
+/* div.search form input[type="text"] {
+} */
+
+div.search form input[type="submit"] {
+	transition: background-color 0.5s;
+	cursor: pointer;
+}
+
+div.search form {
+	border: solid lightgray;
+	display: inline-block;
+	border-radius: 5px;
+	/*! padding: 5px; */
+}
+
+div.search form input[type="submit"]:hover {
+	background: lightgray;
+}

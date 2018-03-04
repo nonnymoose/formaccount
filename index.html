@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Google Form Account Chooser</title>
+		<script src="redirect.js"></script>
+		<link rel="stylesheet" href="canonical.css" />
+		<link rel="stylesheet" href="index.css"/>
+	</head>
+	<body>
+		<div class="header">
+			<div class="left"><a class="header button" href="index.html">Google Form Account Chooser</a></div>
+			<div class="right">
+				<a class="header button" href="access.html">Easy Access</a>
+				<a class="header button" href="about.html">About</a>
+			</div>
+		</div>
+		<div class="body">
+			<div class="search">
+				<form>
+					<input type="text" placeholder="Enter form URL" onpaste="pasteSubmit()" />
+					<input type="submit" value="Go" />
+				</form>
+			</div>
+			<div class="error"></div>
+			<div class="blurb">
+				Have you ever tried to open a Google Form only to find that it was restricted, and you couldn't change accounts?<br />
+				You can enter it here to be taken to an account chooser before you access the form.
+			</div>
+		</div>
+	</body>
+</html>
