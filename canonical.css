@@ -45,3 +45,21 @@ code {
 	font-family: Consolas,Menlo,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New,monospace,sans-serif;
 	background-color: #eff0f1;
 }
+
+@media (max-aspect-ratio: 1/1) {
+	div.header a.title-large {
+		display: none;
+	}
+}
+
+@media (aspect-ratio: 1/1) {
+	div.header a.title-large {
+		display: none;
+	}
+}
+
+@media (min-aspect-ratio: 1/1) {
+	div.header a.title-small {
+		display: none;
+	}
+}
